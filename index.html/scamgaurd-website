@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScamGaurd – Discord Scam Protection Bot</title>
+  <meta name="description" content="ScamGaurd is a Discord security bot that removes scam links, suspicious images, and helps keep your server safe." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f1220;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #5b6cff, #7c4dff);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #aab0ff;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1d36;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #cdd0ff;
+    }
+    .cta {
+      text-align: center;
+      background: #14173a;
+      border-radius: 16px;
+      padding: 50px 20px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #5b6cff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #7c4dff;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #0b0d1a;
+      color: #888;
+      font-size: 0.9rem;
+    }
+    code {
+      background: #0b0d1a;
+      padding: 4px 8px;
+      border-radius: 6px;
+      color: #9aa0ff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ScamGaurd</h1>
+    <p>The all‑in‑one Discord security bot that automatically removes scam links, suspicious images, and protects your community 24/7.</p>
+  </header>
+
+  <section>
+    <h2>What is ScamGaurd?</h2>
+    <p>
+      ScamGaurd is a powerful Discord moderation and security bot designed to keep servers safe from scams, malicious links, and harmful content.
+      When a user sends a suspicious link or an image that violates your rules, ScamGaurd automatically removes the content and issues a warning.
+    </p>
+  </section>
+
+  <section>
+    <h2>Key Features</h2>
+    <div class="features">
+      <div class="card">
+        <h3>🔗 Scam Link Detection</h3>
+        <p>Automatically detects and removes suspicious or malicious links before members can fall victim.</p>
+      </div>
+      <div class="card">
+        <h3>🖼️ Image Filtering</h3>
+        <p>Removes images when image sharing is not allowed or when content is considered unsafe.</p>
+      </div>
+      <div class="card">
+        <h3>⚠️ Automatic Warnings</h3>
+        <p>Users receive instant warnings when they break rules, helping educate them and prevent repeat offenses.</p>
+      </div>
+      <div class="card">
+        <h3>🛡️ Server Protection</h3>
+        <p>Designed to reduce scams, phishing attempts, and malicious activity across your Discord server.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <p>
+      ScamGaurd continuously monitors messages in your Discord server. When a message is sent:
+    </p>
+    <ul>
+      <li>Messages are scanned for suspicious or known scam links</li>
+      <li>Images are checked against your server rules</li>
+      <li>Rule‑breaking content is removed automatically</li>
+      <li>The user receives a warning explaining what they did wrong</li>
+    </ul>
+    <p>
+      All of this happens instantly, without moderators needing to step in.
+    </p>
+  </section>
+
+  <section>
+    <h2>Commands (Example)</h2>
+    <p>You can customize this section based on your actual bot commands.</p>
+    <ul>
+      <li><code>/scamguard status</code> – Check if protection is active</li>
+      <li><code>/scamguard warnings</code> – View a user's warnings</li>
+      <li><code>/scamguard config</code> – Configure protection settings</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>Add ScamGaurd to Your Server</h2>
+    <p>Protect your community today with automated scam prevention.</p>
+    <a href="#">Invite to Discord</a>
+  </section>
+
+  <footer>
+    <p>© 2026 ScamGaurd. All rights reserved.</p>
+    <p>ScamGaurd is not affiliated with Discord Inc.</p>
+  </footer>
+
+</body>
+</html>
